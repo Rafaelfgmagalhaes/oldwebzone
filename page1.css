@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.arealogo{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(94, 11, 172);
+    width: 600px;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 22, 43);
+    /*background-color: rgb(0, 204, 255);*/
+    width: 600px;
+    height: 30px;
+    font-size: 0;
+}
+
+.navitem{
+    display: inline-block;
+    background-color: rgb(40, 22, 43);
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(247, 228, 193);
+    box-sizing: border-box;
+}
+
+.navitem:hover{
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(247, 228, 193);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.areasite{
+    width: 600px;
+    height: 600px;
+    background-image: url("./assets/imagens/windows-95-clouds-kfioe6hnh3x8zn4z.png");
+    margin: auto;
+    text-align: center;
+}
+
+.rodape{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(94, 11, 172);
+    
+    
+}
+
+
+.logorodape img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.logorodape p{
+    color: rgb(247, 228, 193);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+   float: right;
+   padding-right: 140px;
+   margin-top: 35px;
+}
+
+.gifconst1{
+    margin-top: 40px;
+    
+}
+
+.gifconst2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.web{
+    width: 400px;
+    height: 300px;
+}
