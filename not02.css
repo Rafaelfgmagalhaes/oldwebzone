@@ -116,6 +116,11 @@ ul li{
     width: 200px;
 }
 
+.conteudo .gifesp{
+    width: 250px;
+    height: 250px;
+}
+
 .conteudo a{
     text-decoration: none;
     color: rgb(48, 46, 46);
