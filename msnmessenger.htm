@@ -35,25 +35,42 @@
 
             <h3>Relembre alguns sons ic&ocirc;nicos do MSN:</h3>
 
-            <script type="text/javascript">
-                function tocarSom(id, arquivo){
-                    var player = document.getElementById(id);
-                    player.src = arquivo;
+            <script>
+                function tocarSom(idEmbed, idAudio, arquivo){
+                // Primeiro tenta tocar via <audio> moderno
+                    var audio = document.getElementById(idAudio);
+                    if(audio && audio.canPlayType){  // verifica suporte a <audio>
+                    audio.src = arquivo;
+                    audio.play();
+                } else {
+                        // Se não suportar <audio>, cai para o <embed> antigo
+                        var embed = document.getElementById(idEmbed);
+                        if(embed){
+                            embed.src = arquivo;
+                        }
+                    }
                 }
             </script>
 
-            <embed id="player1" hidden="true" autostart="true">
-            <embed id="player2" hidden="true" autostart="true">
-            <embed id="player3" hidden="true" autostart="true">
+            <!-- Players de áudio moderno -->
+            <audio id="playerAudio1" hidden></audio>
+            <audio id="playerAudio2" hidden></audio>
+            <audio id="playerAudio3" hidden></audio>
 
+            <!-- Players antigos (embed) -->
+            <embed id="playerEmbed1" hidden autostart="true"></embed>
+            <embed id="playerEmbed2" hidden autostart="true"></embed>
+            <embed id="playerEmbed3" hidden autostart="true"></embed>
+
+            <!-- Botões -->
             <input type="button" value="MSN mensagens"
-                onclick="tocarSom('player1','./assets/sounds/msn-sound_1.wav')" class="input">
+                onclick="tocarSom('playerEmbed1','playerAudio1','./assets/sounds/msn-sound_1.mp3')" class="input">
 
-            <input type="button" value="Chamar aten&ccedil;&atilde;o"
-                onclick="tocarSom('player2','./assets/sounds/nudge.wav')" class="input">
+            <input type="button" value="Chamar atenção"
+                onclick="tocarSom('playerEmbed2','playerAudio2','./assets/sounds/nudge.mp3')" class="input">
 
-            <input type="button" value="Notifica&ccedil;&atilde;o"
-                onclick="tocarSom('player3','./assets/sounds/msn-online.wav')" class="input">
+            <input type="button" value="Notificação"
+                onclick="tocarSom('playerEmbed3','playerAudio3','./assets/sounds/msn-online.mp3')" class="input">
 
 
 
