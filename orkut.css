@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Impact, Arial, sans-serif; */
+}
+
+.arealogo{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(94, 11, 172);
+    width: 600px;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 22, 43);
+    /*background-color: rgb(0, 204, 255);*/
+    width: 600px;
+    height: 30px;
+    font-size: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navitem{
+    display: inline-block;
+    background-color: rgb(40, 22, 43);
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(247, 228, 193);
+    box-sizing: border-box;
+}
+
+.navitem:hover{
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(247, 228, 193);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.areasite{
+    width: 600px;
+    height: auto;
+    background-image: url("./assets/imagens/windows-95-clouds-kfioe6hnh3x8zn4z.png");
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.page{
+    width: 95%;
+    height: auto;
+    background-color: rgba(104, 170, 231, 0.322);
+    margin: auto;
+    margin-bottom: 15px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+}
+
+.page h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tituloOrkut{
+    color: rgb(184, 28, 163);
+}
+
+#perfilOrkut{
+    width: 550px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+#perfilOrkut2{
+    width: 550px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+#comunidadeOrkutlindomar{
+    width: 400px;
+    height: 300px;
+}
+
+.page .botlink{
+    background-color:rgb(247, 228, 193);
+    width: 250px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    color: blueviolet;
+    line-height: 1.2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.botlink:hover{
+    text-decoration: underline;
+    background-color: rgb(94, 11, 172);
+    color: rgb(247, 228, 193);
+}
+
+
+.page h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.page .imagemprincipal{
+    width: 65%;
+    height: 250px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+}
+
+.page .giftitle{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.imagemSecundaria{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+}
+
+.messengerplus{
+    width: 250px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+}
+
+.page h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(247, 228, 193) ;
+    border: 0.6px solid rgba(151, 148, 148, 0.493);
+    margin-bottom: 60px ;
+}
+
+.input:hover{
+    cursor: pointer;
+    border: 2px solid rgb(156, 154, 154);
+}
+
+.page p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.imagemTerciaria{
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+}
+
+.imagemEscargot{
+    width: 350px;
+    height: 200px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+}
+
+.imagemFinal{
+    width: 95%;
+    height: 400px;
+    border: 0.5px solid rgba(128, 128, 128, 0.459);
+    margin-bottom: 40px;
+}
+
+
+/* .page a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.page a:hover{
+    text-decoration: underline;
+    color: rgb(94, 11, 172);
+} */
+.rodape{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(94, 11, 172);
+    
+    
+}
+
+
+.logorodape img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.logorodape p{
+    color: rgb(247, 228, 193);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+   float: right;
+   padding-right: 140px;
+   margin-top: 35px;
+}
+
+.gifconst1{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    
+}
+
+.gifconst2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+

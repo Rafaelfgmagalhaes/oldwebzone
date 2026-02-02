@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Impact, Arial, sans-serif; */
+}
+
+.arealogo{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(94, 11, 172);
+    width: 600px;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 22, 43);
+    /*background-color: rgb(0, 204, 255);*/
+    width: 600px;
+    height: 30px;
+    font-size: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navitem{
+    display: inline-block;
+    background-color: rgb(40, 22, 43);
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(247, 228, 193);
+    box-sizing: border-box;
+}
+
+.navitem:hover{
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(247, 228, 193);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.areasite{
+    width: 600px;
+    height: auto;
+    background-image: url("./assets/imagens/windows-95-clouds-kfioe6hnh3x8zn4z.png");
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.conteudo{
+    width: 80%;
+    height: auto;
+    background-color: rgb(247, 228, 193) ;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.5px solid gray;
+}
+
+ .conteudo .giftitle{
+    width: 50px;
+    height: 50px;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.conteudo h1{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.conteudo h3{
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.conteudo img{
+    width: 85%;
+    height: 250px;
+}
+
+#imagemsecundaria{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 15px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conteudo .underline{
+    width: 400px;
+    border: 1px solid rgba(168, 164, 164, 0.582);
+    margin: auto;
+    margin-top: 20px;
+}
+
+#noticeflash{
+    color: rgba(230, 12, 12, 0.5);
+}
+
+#subtitulo{
+    font-weight: bold;
+}
+
+#gifnave{
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#botao{
+    display: inline-block;
+    width: 190px;
+    height: 80px;
+    background-color:rgb(94, 11, 172);
+    color: rgb(247, 228, 193);
+    line-height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 1.1;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+#buttonplay{
+    width: 60px;
+    height: 40px;
+    margin: auto;
+}
+
+#buttonplay:hover{
+    cursor: pointer;
+    cursor: hand;
+    border: 1px solid red;
+}
+
+#botao:hover{
+    background-color: rgb(27, 190, 27);
+    color: rgb(247, 228, 193);
+}
+
+#errorFlash{
+    font-size: 12px;
+}
+
+#giflash{
+    width: 70px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#giflash:hover{
+    cursor: pointer;
+}
+
+.rodape{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(94, 11, 172);
+    
+    
+}
+
+.logorodape img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.logorodape p{
+    color: rgb(247, 228, 193);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+   float: right;
+   padding-right: 140px;
+   margin-top: 35px;
+}
+
