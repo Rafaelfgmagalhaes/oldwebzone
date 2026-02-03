@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Impact, Arial, sans-serif; */
+}
+
+.arealogo{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(94, 11, 172);
+    width: 600px;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 22, 43);
+    /*background-color: rgb(0, 204, 255);*/
+    width: 600px;
+    height: 30px;
+    font-size: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navitem{
+    display: inline-block;
+    background-color: rgb(40, 22, 43);
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(247, 228, 193);
+    box-sizing: border-box;
+}
+
+.navitem:hover{
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(247, 228, 193);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.areasite{
+    width: 600px;
+    height: auto;
+    /* background-image: url("./assets/imagens/windows-95-clouds-kfioe6hnh3x8zn4z.png"); */
+    background-size: cover;
+    margin: auto;
+    /* text-align: center; */
+    /* padding-top: 50px; */
+    overflow: hidden;
+}
+
+
+.areasite .banner1{
+    width: 600px;
+    height: 80px;
+    background-image: url("./assets/imagens/thumb-1920-925905.png");
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.banner1 #pacman{
+    width: 99px;
+    height: 75px;
+    box-sizing: border-box;
+   padding-top: 3px;
+    
+}
+
+#pacman2{
+    width: 99px;
+    height: 75px;
+    box-sizing: border-box;
+    padding-top: 3px;
+}
+
+#banner{
+    width: 397px;
+    height: 70px;
+    box-sizing: border-box;
+    margin-left: -5px;
+    
+}
+
+.areasite .areajogos{
+    width: 500px;
+    height: 800px;
+    background-image: url("./assets/imagens/thumb-1920-925905.png");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 228, 193);
+    padding-top: 0;
+    
+}
+
+.areajogos #noticeflash{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+    margin: auto;
+    color: rgba(29, 216, 12, 0.548);
+    margin-bottom: 5px;
+}
+
+#giflash{
+    padding-top: 8px;
+}
+
+#fliperama{
+    width: 300px;
+    height: 275px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+}
+
+#fliperama img{
+    width: 300px;
+    height: 200px;
+}
+
+#fliperama h1{
+    font-size: 18px;
+    color: rgb(247, 228, 193);
+    
+}
+
+#fliperama p{
+    font-size: 14px;
+    padding-bottom: 12px;
+    color: rgb(247, 228, 193);
+} 
+
+#fliperama:hover{
+    border: 1px solid rgb(247, 228, 193);
+}
+
+#fliperama a{
+    text-decoration: none;
+}
+
+
+#clickjogos{
+    width: 300px;
+    height: 275px;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 0px;
+}
+
+
+#clickjogos img{
+    width: 300px;
+    height: 200px;
+}
+
+#clickjogos h1{
+    font-size: 18px;
+    color: rgb(247, 228, 193);
+    
+}
+
+#clickjogos p{
+    font-size: 14px;
+    padding-bottom: 12px;
+    color: rgb(247, 228, 193);
+} 
+
+#clickjogos:hover{
+    border: 1px solid rgb(247, 228, 193);
+}
+
+#clickjogos a{
+    text-decoration: none;
+}
+
+.areasite .banner2{
+    width: 100px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url("./assets/imagens/thumb-1920-925905.png");
+    background-size: cover;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#ryu{
+    width: 100px;
+    height: 99px;
+}
+
+#pactab{
+    width: 100px;
+    height: 200px;
+}
+
+
+#start{
+    width: 100px;
+    height: 99px;
+}
+
+#cubo{
+    width: 100px;
+    height: 99px;
+}
+
+#velha{
+    width: 100px;
+    height: 99px;
+}
+
+#tetrislateral{
+    width: 100px;
+    height: 180px;
+}
+
+
+.bannerRodape{
+    width: 600px;
+    height: 80px;
+    background-image: url("./assets/imagens/thumb-1920-925905.png");
+    background-size: cover;
+}
+
+#tetris{
+    width: 600px;
+    height: 80px;
+}
+
+
+.rodape{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(94, 11, 172);
+    
+    
+}
+
+
+.logorodape img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.logorodape p{
+    color: rgb(247, 228, 193);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+   float: right;
+   padding-right: 140px;
+   margin-top: 35px;
+}
+
+.gifconst1{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    
+}
+
+.gifconst2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
