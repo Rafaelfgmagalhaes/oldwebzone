@@ -50,7 +50,7 @@
 .areasite{
     width: 600px;
     height: auto;
-    background-image: url("./assets/imagens/windows-95-clouds-kfioe6hnh3x8zn4z.png");
+    background-image: url("./assets/imagens/theme.png");
     background-size: cover;
     margin: auto;
     text-align: center;
@@ -127,14 +127,14 @@
 }
 
 .noticia img:hover{
-    border: 2px solid rgb(94, 11, 172);
+    border: 2px solid rgb(247, 228, 193);
 }
 
 .noticia h3{
     text-align: center;
     margin: auto;
     font-size: 14px;
-    color: rgb(94, 11, 172);
+    color: rgb(247, 228, 193);
     font-style: normal;
     
 }
@@ -145,6 +145,7 @@
 
 .notica,  a:hover{
     text-decoration: underline;
+    color: rgb(247, 228, 193);
 }
 
 .clear{
@@ -161,7 +162,7 @@
 }
 
 .oracaoNet img:hover{
-    border: 2px solid rgb(94, 11, 172);
+    border: 2px solid rgb(247, 228, 193);
 }
 
 
