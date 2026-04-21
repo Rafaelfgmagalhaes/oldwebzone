@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Impact, Arial, sans-serif; */
+}
+
+.arealogo{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(94, 11, 172);
+    width: 600px;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 22, 43);
+    /*background-color: rgb(0, 204, 255);*/
+    width: 600px;
+    height: 30px;
+    font-size: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navitem{
+    display: inline-block;
+    background-color: rgb(40, 22, 43);
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(247, 228, 193);
+    box-sizing: border-box;
+}
+
+.navitem:hover{
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(247, 228, 193);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.areasite{
+    width: 600px;
+    height: auto;
+    background-image: url("./assets/imagens/theme.png");
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+
+.videomenu{
+    width: 150px;
+    height: auto;
+    background-color: rgb(247, 228, 193);
+    margin-top: -29px;
+}
+
+.menuitem{
+    color: rgb(94, 11, 172);
+    font-size: 17px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(94, 11, 172);
+}
+
+.menuitem:hover{
+    border: 1px solid black;
+    font-size: 17px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#linkmenu{
+    text-decoration: none;
+}
+
+#linkmenu:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+#linkmenu:visited{
+    color: rgb(94, 11, 172);
+}
+
+.mensagem{
+    width: 150px;
+    height: auto;
+    text-align: center;
+    background-color:rgb(247, 228, 193) ;
+    margin-top: 15px;
+    border: 1px solid rgb(94, 11, 172);
+}
+
+.videocontent{
+    width: 450px;
+    height: auto;
+    /* background-color: black; */
+    float: right;
+    margin-top: -450px;
+}
+
+.videocontent h1{
+    color: rgb(247, 228, 193) ;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.videocontent p{
+    color: rgb(247, 228, 193);
+    font-size: 20px;
+}
+
+#noticeflash{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    padding-top: 15px;
+    margin: auto;
+    
+    margin-top: 65px;
+}
+
+#noticeflash p{
+    color: rgb(29, 216, 12);
+}
+
+#noticeflash img{
+    margin-top: 10px;
+}
+
+.videocard{
+    width: 340px;
+    height: auto;
+    margin: auto;
+}
+
+#player{
+    /* margin-top: -220px; */
+}
+
+#buttonplay{
+    width: 60px;
+    height: 40px;
+    margin:  auto;
+}
+
+#buttonplay:hover{
+    cursor: pointer;
+    cursor: hand;
+    border: 1px solid red;
+}
+
+
+#errorFlash{
+    font-size: 12px;
+}
+
+#giflash{
+    width: 70px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+#giflash:hover{
+    cursor: pointer;
+}
+
+
+
+.rodape{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(94, 11, 172);
+    
+    
+}
+
+
+.logorodape img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.logorodape p{
+    color: rgb(247, 228, 193);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+   float: right;
+   padding-right: 140px;
+   margin-top: 35px;
+}
+
+
+
+
