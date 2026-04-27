@@ -1,0 +1,15 @@
+<p id="datadehoje"></p>
+
+
+
+<script src="./app.js" type="text/javascript"></script>
+
+
+
+
+#datadehoje {
+    color: rgb(247, 228, 193);
+    font-size: 14px;
+    padding: 5px 15px;
+    text-align: right;
+}

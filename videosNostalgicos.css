@@ -151,6 +151,7 @@ ul{
     width: 340px;
     height: auto;
     margin: auto;
+   
 }
 
 #player{
@@ -216,6 +217,11 @@ ul{
    margin-top: 35px;
 }
 
-
+#datadehoje {
+    color: rgb(247, 228, 193);
+    font-size: 14px;
+    padding: 5px 15px;
+    text-align: right;
+}
 
 

@@ -165,4 +165,9 @@
     border: 2px solid rgb(247, 228, 193);
 }
 
-
+#datadehoje {
+    color: rgb(247, 228, 193);
+    font-size: 14px;
+    padding: 5px 15px;
+    text-align: right;
+}
