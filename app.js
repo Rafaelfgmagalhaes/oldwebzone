@@ -11,6 +11,12 @@ const meses = [
 ];
 
 
+
+let hora = data.getHours();
+let minutos = data.getMinutes();
+let segundos = data.getSeconds();
+
+
 let hoje = function(){
     if(DSemana == 0){
         return 'Domingo';
@@ -33,6 +39,7 @@ let hoje = function(){
 // console.log(`Olá, hoje é ${hoje()}, ${dia} de ${meses[mes]} de ${ano}`);
 
 
-const calendario = `Ol&aacute;, hoje &eacute; ${hoje()}, ${dia} de ${meses[mes]} de ${ano}`;
+const calendario = `Ol&aacute;, hoje &eacute; ${hoje()}, ${dia} de ${meses[mes]} de ${ano}   `;
 document.getElementById("datadehoje").innerHTML = calendario;
 
+// console.log(`${hora}:${minutos}:${segundos}`);

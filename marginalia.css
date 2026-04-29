@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Impact, Arial, sans-serif; */
+}
+
+.arealogo{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(94, 11, 172);
+    width: 600px;
+}
+
+.navbar{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 22, 43);
+    /*background-color: rgb(0, 204, 255);*/
+    width: 600px;
+    height: 30px;
+    font-size: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navitem{
+    display: inline-block;
+    background-color: rgb(40, 22, 43);
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(247, 228, 193);
+    box-sizing: border-box;
+}
+
+.navitem:hover{
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(247, 228, 193);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.areasite{
+    width: 600px;
+    height: auto;
+    background-image: url("./assets/imagens/windows-95-clouds-kfioe6hnh3x8zn4z.png");
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.conteudo{
+    width: 80%;
+    height: auto;
+    background-color: rgb(247, 228, 193) ;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.5px solid gray;
+}
+
+.imgprincipal{
+    width: 95%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#botao{
+    width: 390px;
+    height: 50px;
+    background-color:rgb(94, 11, 172);
+    color: rgb(247, 228, 193);
+    display: block;
+    font-size: 25px;
+    line-height:50px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    border: 1px solid rgb(94, 11, 172);
+}
+
+#botao:hover{
+    border: 2px solid white;
+}
+
+
+#paragrafo{
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+}
+
+.rodape{
+    width: 600px;
+    height: 80px;
+    margin: auto;
+    background-color: rgb(94, 11, 172);
+    
+    
+}
+
+.logorodape img{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.logorodape p{
+    color: rgb(247, 228, 193);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 14px; */
+    margin: auto;
+    text-align: center;
+   float: right;
+   padding-right: 140px;
+   margin-top: 35px;
+}
+
+#datadehoje {
+    color: rgb(247, 228, 193);
+    font-size: 14px;
+    padding: 5px 15px;
+    text-align: right;
+}
